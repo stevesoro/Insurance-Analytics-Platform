@@ -1,9 +1,10 @@
 # Insurance Analytics Platform
 
-![Python](https://img.shields.io/badge/Python-3.14-blue)
-![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Latest-orange)
-![GitHub](https://img.shields.io/badge/Status-In%20Progress-green)
+![Python](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white) 
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black) 
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white) 
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black) 
+![Status](https://img.shields.io/badge/Status-In%20Progress-success)
 
 ## Overview
 
@@ -32,7 +33,19 @@ This project simulates a real-world assignment in which a newly hired Data Engin
 
 ---
 
-## Technology Stack
+## Roadmap
+
+- [x] Project structure
+- [x] Git version control
+- [ ] Kaggle ingestion pipeline
+- [ ] Data validation framework
+- [ ] Medallion Architecture (Bronze, Silver, Gold)
+- [ ] DuckDB analytical database
+- [ ] Power BI dashboard
+- [ ] Polars performance optimization
+- [ ] Microsoft Fabric integration
+
+## Planned Technology Stack
 
 - Python
 - Pandas
@@ -42,8 +55,6 @@ This project simulates a real-world assignment in which a newly hired Data Engin
 - Power BI
 - Git
 - GitHub
-- Docker
-- Microsoft Fabric *(planned)*
 
 ---
 
