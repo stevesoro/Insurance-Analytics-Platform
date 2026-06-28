@@ -45,16 +45,18 @@ This project simulates a real-world assignment in which a newly hired Data Engin
 - [ ] Polars performance optimization
 - [ ] Microsoft Fabric integration
 
-## Planned Technology Stack
+## Target Technology Stack
 
-- Python
-- Pandas
-- Polars
-- DuckDB
-- SQL
-- Power BI
-- Git
-- GitHub
+- [x] Git
+- [x] Python
+- [ ] GitHub
+- [ ] Pandas
+- [ ] DuckDB
+- [ ] SQL
+- [ ] Power BI
+- [ ] Polars
+- [ ] Docker
+- [ ] Microsoft Fabric
 
 ---
 
