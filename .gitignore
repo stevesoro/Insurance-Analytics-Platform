@@ -118,6 +118,7 @@ docker/postgres-data/
 
 # -----------------------------------------------------------------------------
 
+data/1-external/*
 data/2-raw/*
 data/3-bronze/*
 data/4-silver/*
@@ -125,6 +126,7 @@ data/5-gold/*
 
 # Keep the folder structure in Git
 
+!data/1-external/.gitkeep
 !data/2-raw/.gitkeep
 !data/3-bronze/.gitkeep
 !data/4-silver/.gitkeep
