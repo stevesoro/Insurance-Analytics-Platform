@@ -39,6 +39,7 @@ This project simulates a real-world assignment in which a newly hired Data Engin
 - [x] Git version control
 - [x] Python development environment
 - [x] Kaggle ingestion pipeline
+- [x] Data profiling framework
 - [ ] Data validation framework
 - [ ] Medallion Architecture (Bronze, Silver, Gold)
 - [ ] DuckDB analytical database
@@ -46,7 +47,7 @@ This project simulates a real-world assignment in which a newly hired Data Engin
 - [ ] Polars performance optimization
 - [ ] Microsoft Fabric integration
 
-## Target Technology Stack
+## Planned Technology Stack
 
 - [x] Git
 - [x] Python

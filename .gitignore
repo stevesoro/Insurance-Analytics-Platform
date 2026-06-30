@@ -33,6 +33,8 @@ dist/
 .env
 .env.*
 
+!.env.example
+
 # -----------------------------------------------------------------------------
 
 # Jupyter
@@ -48,6 +50,7 @@ dist/
 # -----------------------------------------------------------------------------
 
 .vscode/*
+
 !.vscode/settings.json
 
 # -----------------------------------------------------------------------------
@@ -131,3 +134,9 @@ data/5-gold/*
 !data/3-bronze/.gitkeep
 !data/4-silver/.gitkeep
 !data/5-gold/.gitkeep
+
+# Profiling reports
+
+docs/profiling/*
+
+!docs/profiling/.gitkeep
