@@ -1,12 +1,12 @@
-from ingestion_config import (
-    APPLICATION_NAME,
+from config.datasets import (
     DATASET_ID,
     DATASET_OUTPUT_DIR,
 )
+from config.project import APPLICATION_NAME
 
-from sources.kaggle_cli import download_kaggle_dataset
-from utils.logger import get_logger
-from utils.paths import ensure_directory_exists
+from scripts.ingestion.sources.kaggle_cli import download_kaggle_dataset
+from scripts.ingestion.utils.logger import get_logger
+from scripts.ingestion.utils.paths import ensure_directory_exists
 
 
 logger = get_logger(APPLICATION_NAME)

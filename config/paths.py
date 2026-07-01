@@ -1,0 +1,11 @@
+from config.project import PROJECT_ROOT
+
+DATA_DIR = PROJECT_ROOT / "data"
+EXTERNAL_DATA_DIR = DATA_DIR / "1-external"
+RAW_DATA_DIR = DATA_DIR / "2-raw"
+BRONZE_DATA_DIR = DATA_DIR / "3-bronze"
+SILVER_DATA_DIR = DATA_DIR / "4-silver"
+GOLD_DATA_DIR = DATA_DIR / "5-gold"
+
+DOCS_DIR = PROJECT_ROOT / "docs"
+PROFILING_OUTPUT_DIR = DOCS_DIR / "profiling"

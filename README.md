@@ -1,7 +1,7 @@
 # Insurance Analytics Platform
 
 ![Python](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white) 
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black) 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-FFF000?logo=PostgreSQL&logoColor=black) 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white) 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black) 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-success)
@@ -29,7 +29,25 @@ This project simulates a real-world assignment in which a newly hired Data Engin
 
 ## Architecture
 
-> *Architecture diagram will be added.*
+                 Kaggle
+                    │
+                    ▼
+          Python Ingestion
+                    │
+                    ▼
+            External Landing
+                    │
+                    ▼
+        Profiling & Validation
+                    │
+                    ▼
+        Bronze → Silver → Gold
+                    │
+                    ▼
+        PostgreSQL Data Warehouse
+                    │
+                    ▼
+           Power BI Dashboard
 
 ---
 
@@ -42,10 +60,10 @@ This project simulates a real-world assignment in which a newly hired Data Engin
 - [x] Data profiling framework
 - [ ] Data validation framework
 - [ ] Medallion Architecture (Bronze, Silver, Gold)
-- [ ] DuckDB analytical database
+- [ ] PostgreSQL data warehouse implementation
 - [ ] Power BI dashboard
-- [ ] Polars performance optimization
-- [ ] Microsoft Fabric integration
+
+---
 
 ## Planned Technology Stack
 
@@ -53,12 +71,19 @@ This project simulates a real-world assignment in which a newly hired Data Engin
 - [x] Python
 - [x] GitHub
 - [ ] Pandas
-- [ ] DuckDB
+- [ ] PostgreSQL
 - [ ] SQL
 - [ ] Power BI
-- [ ] Polars
-- [ ] Docker
-- [ ] Microsoft Fabric
+- [ ] Docker Compose
+
+---
+
+## Possible Future Extensions
+
+- Polars performance optimization
+- DuckDB for local analytical processing
+- Microsoft Fabric integration
+- Automated testing
 
 ---
 

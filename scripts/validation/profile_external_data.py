@@ -2,18 +2,8 @@ from pathlib import Path
 
 import pandas as pd
 
-
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
-EXTERNAL_DATA_DIR = (
-    PROJECT_ROOT
-    / "data"
-    / "1-external"
-    / "insurance_dataset"
-    / "insurance_simple"
-)
-
-PROFILING_OUTPUT_DIR = PROJECT_ROOT / "docs" / "profiling"
+from config.datasets import INSURANCE_DATASET_DIR
+from config.paths import PROFILING_OUTPUT_DIR
 
 
 def profile_csv(file_path: Path) -> str:
@@ -48,7 +38,7 @@ def profile_csv(file_path: Path) -> str:
 def main() -> None:
     PROFILING_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    csv_files = EXTERNAL_DATA_DIR.glob("*.csv")
+    csv_files = INSURANCE_DATASET_DIR.glob("*.csv")
 
     for csv_file in csv_files:
         report = profile_csv(csv_file)
